@@ -67,7 +67,7 @@
     height: 80vh;
 }
 .text-box{
-    width: 37%;
+    width: 40%;
     color: palevioletred;
 }
 .text-box h1{
@@ -110,7 +110,7 @@
     cursor: pointer;
 }
 .img{
-    width: 45%;
+    width: 40%;
 }
 .img img{
     width: 100%;
@@ -150,6 +150,12 @@
 .img img{
     height: 300px;
 }
+.links {
+    margin-top: 8%;
+}
+.text-box h1 {
+    padding: 0px ;
+}
 .navbar ul li{
     display: block;
     padding: 2px 0px 34px;
@@ -187,5 +193,17 @@
 }
 .v-class{
     opacity: 0;
+}
+}
+
+@media only screen and (max-width:395px){
+.box{
+    justify-content: start;
+}
+.img{
+    width: 100%;
+}
+.img img {
+    height: 16em;
 }
 }
